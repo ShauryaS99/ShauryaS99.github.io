@@ -344,59 +344,56 @@
 	<!-- Start Row Dark -->
 	<div class="row dark text-center">
 		<div class="col-12">
-			<h3 class="heading">Built With Care</h3>
+			<h3 class="heading">Work Experiences</h3>
 			<div class="heading-underline"></div>
 		</div>
-		<script src = "script.js"></script>
-		<div class="tabs">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-2">
-						<ul class="nav nav-pills nav-stacked flex-column">
-							<li class="active"><a href="#tab_a" data-toggle="pill">TAB 1</a></li>
-							<li><a href="#tab_b" data-toggle="pill">TAB 2</a></li>
-							<li><a href="#tab_c" data-toggle="pill">TAB 3</a></li>
-						</ul>
-					</div>
-					<div class="col-xl-6">
-						<div class="tab-content">
-							<div class="tab-pane active" id="tab_a">
-								<h3>First tab with soft transitioning effect.</h3>
-								<p>American Builders Inc. is your full service general contractor. We have been helping 
-									clients throughout Eastern North Carolina with their construction needs since 1996.
-									We take pride in understanding our clients' needs, making their construction experience 
-									as worry free as possible and only delivering a finished product that will withstand the
-								test of time. </p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-								bibendum laoreet.</p>
-							</div>
-							<div class="tab-pane" id="tab_b">
-								<h3>Second tab with soft transitioning effect.</h3>
-								<p>We maintain a reputation for effective communication and collaboration between our 
-									team and clients to minimize surprises and ensure precise project delivery. Lorem ipsum 
-									dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-									bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
-									justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-								penatibus et magnis dis parturient montes.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-								bibendum laoreet.</p>
-							</div>
-							<div class="tab-pane" id="tab_c">
-								<h3>Third tab with soft transitioning effect.</h3>
-								<p>Thank you for taking the time to consider American Builders Inc. as your general
-									contractor for any and all of your commercial, residential, insurance restoration and metal 
-									building needs. Please feel free to explore our website, and be sure to click on the
-								Facebook link at the bottom of this page and like us on Facebook.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-								bibendum laoreet.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		<!-- Start Tabs -->
+		<div class="tab">
+			<button class="tablinks active" onclick="openCity(event, 'job1')">Rakuten</button>
+			<button class="tablinks" onclick="openCity(event, 'job2')">MDB</button>
+			<button class="tablinks" onclick="openCity(event, 'job3')">Agadia</button>
+			<button class="tablinks" onclick="openCity(event, 'job4')">NJIT</button>
 		</div>
-
-
+		  
+		<div id="job1" class="tabcontent">
+			<h3>SWE @ Rakuten</h3>
+			<h6>Jun. 2019 - Aug. 2019 | San Mateo, CA</h6>
+			<ul>
+				<li>Designed queries for Rakuten’s E-commerce Databases using Google Datastore and Java Spring Boot</li>
+				<li>Architected search functionality for products based on GTIN identifiers in product catalog</li>
+				<li>Implemented a metric driven dashboard to provide multi-layered analytics on endpoint queries using (ELK) Dashboard </li>
+			</ul>
+		</div>
+		<div id="job2" class="tabcontent" style="display: none;">
+			<h3>Mobile Developers of Berkeley</h3>
+			<h6>Vice President of Operations: Jan. 2020 – Present | Berkeley, CA</h6>
+			<ul>
+				<li>Lead one of the largest tech orgs by enforcing budget, establishing operational procedures, & directing TechFair</li>
+				<li>Guide general meetings for 60+ members, organize showcasing of MDB apps to companies and clients at TechFair</li>
+			</ul>
+			<h6>Technical Project Manager: Aug. 2019 – Dec. 2020 | Berkeley, CA</h6>
+			<ul>
+				<li>Leading team of 5 developers and 2 designers to create a mobile app for our client, Recelery LLC. valued ~ $25 k</li>
+				<li>Defining and setting milestones and deliverables through AGILE and communicating w/ client to meet specs</li>
+			</ul>
+		</div>
+		<div id="job3" class="tabcontent" style="display: none;">
+			<h3>Mobile Managment @ Agadia</h3>
+			<h6>Jun. 2018 - Aug. 2018 | Parsippany, NJ</h6>
+			<ul>
+				<li>Defined risk mitigation policies to silo patients' PHI data from exposure on corporate devices</li>
+				<li>Executed QA protocol on various configurations for corporate devices using security software</li>
+			</ul>
+		</div>
+		<div id="job4" class="tabcontent" style="display: none;">
+			<h3>Programming Teacher @ NJIT</h3>
+			<h6>Jun. 2015 - Aug. 2015 | Newark, NJ</h6>
+			<ul>
+				<li>Taught 6 inner city high school students to code in HTML, CSS, C++, Javascript and Python </li>
+				<li>Mentored students to develop a web app to provide Geo coordinate sensitive health clinic listings</li>
+				<li>Won Best Intern Award by Panasonic & NJIT for technical skills and demonstrated passion</li>
+			</ul>
+		</div>
 		<!-- <div class="col-md-4">
 			<h3>HTML 5</h3>
 			<div class = "feature">
@@ -517,13 +514,12 @@
 
 
 <!--- Script Source Files -->
+<script src="script.js"></script>
+
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
 <!--- End of Script Source Files -->
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </body>
 </html>
