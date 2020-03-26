@@ -73,7 +73,7 @@ body {
 /* About Section */
 .narrow {
   width: 75%;
-  margin: 1.5rem auto;
+  margin: 1rem auto;
   padding-top: 1rem;
 }
 .narrow h1 {
@@ -121,13 +121,13 @@ h3.heading {
   font-size: 1.9rem;
   font-weight: 300;
   text-transform: uppercase;
-  margin-bottom: 1.9rem;
+  margin-bottom: 1rem;
 }
 .heading-underline{
   width: 3rem;
   height: .2rem;
   background-color: #1ebba3;
-  margin: 0 auto 2rem;
+  margin: 0 auto 0;
 }
 
 .feature svg.svg-inline--fa {
