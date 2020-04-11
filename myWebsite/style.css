@@ -299,21 +299,21 @@ h3.heading {
   vertical-align: middle;
 }
 
-.main btn {
+.card_btn {
   color: #ffffff;
   padding: 0.8rem;
   font-size: 14px;
   text-transform: uppercase;
   border-radius: 4px;
   font-weight: 400;
-  display: block;
+  display: inline-block;
   width: 100%;
   cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background-color: transparent;
 }
 
-.main btn:hover {
+.main .card_btn:hover {
   background-color: rgba(255, 255, 255, 0.12);
 }
 
