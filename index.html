@@ -1,9 +1,541 @@
----
-layout: default
-title: Shaurya's Blog
----
-<div class="blurb">
-	<h1>Shaurya's Blog</h1>
-	<p>Welcome! My name is Shaurya Sanghvi and this site is where you can learn about the 
-		prosperous and adventurous life of myself. <a href="/about">Read more about my experiences...</a></p>
-</div><!-- /.blurb -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Shaurya Sanghvi</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+</head>
+
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+<!--- Start Home Section -->
+<div id="home">
+<!--- Start Navigation-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+	<a class="navbar-brand" href="#"><img src="img/logoS_transparent.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" 
+	data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="#home">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#about">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#skills">Skills</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#work">Work</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#projects">Projects</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#contact">Contact</a>
+			</li>
+		</ul>
+	</div>
+
+</nav>
+<!--- End Navigation -->
+<!-- Start Landing Page -->
+<div class="landing">
+	<div class="home-wrap">
+		<div class="home-inner">
+
+		</div>
+	</div>
+</div>
+
+<div class="caption text-center">
+	<h1>Shaurya Sanghvi</h1>
+	<h3>Software Engineer</h3>
+	<a class="btn btn-outline-light btn-lg" href="#about">Learn More</a>	
+</div>
+<!-- End Landing Page -->
+</div>
+<!--- End Home Section -->
+
+
+<!--- Start About Section -->
+<div id="about" class="offset">
+
+<div class="col-12 narrow text-center">
+	<h1>About Me</h1>
+	<strong> Ahh, so you wish to learn about the tale of Shaurya Sanghvi...</strong>
+	<p class="lead">
+		I started off as an above average student in elementary school. But I soon 
+		learned I had potential for so much greater. I thus marched on towards higher 
+		education, dominating challenge after challenge until I was accepted into the 
+		most prestigious school on the Western Seaboard. I thus enbarked on the path 
+		of obtaining the most rigorous major at UC Berkeley: EECS. And that's where I 
+		am currently in the story. 
+	</p>
+	<h6>To be continued...</h6>
+	
+	<div class = "socials">
+		<a href="https://www.linkedin.com/in/shaurya-sanghvi/" target = "_blank">
+		<i class="fab fa-linkedin"></i></a>
+		<a href="https://www.github.com/ShauryaS99" target = "_blank">
+		<i class="fab fa-github-square"></i></a>
+		<a href="mailto:shaurya_s@berkeley.edu?Subject=Hello!" target = "_blank">
+		<i class="fas fa-envelope"></i></a>
+	</div>
+<!-- 		
+	<a class = "btn btn-secondary btn-md" href="https://www.youtube.com/watch?v=rGrQhdLo_-U"
+	target="_blank">Vinland Saga</a> -->
+
+</div>
+
+</div>
+<!--- End About Section -->
+
+
+<!--- Start Skills Section -->
+<div id="skills" class="offset">
+<!-- Start Jumbotron -->
+<div class="jumbotron">
+<!-- Start Narrow -->
+<div class="narrow text-center">
+	<div class="col-12">
+		<h3 class="heading">Skills</h3>
+		<div class="heading-underline"></div>
+	</div>	
+</div>
+
+	<!-- Start Row -->
+	<div class = "row">
+		<div class="col-md-6">
+			<div class = "row bars">
+				<div class="center">
+					<h1>Languages</h1>
+					<div class="skillBox">
+						<p>Python</p>
+						<p>90%</p>
+						<div class="skill">
+							<div class="skill_level" style="width: 90%;"></div>
+						</div>
+					</div>
+					<div class="skillBox">
+						<p>Java</p>
+						<p>85%</p>
+						<div class="skill">
+							<div class="skill_level" style="width: 85%;"></div>
+						</div>
+					</div>
+					<div class="skillBox">
+						<p>C</p>
+						<p>70%</p>
+						<div class="skill">
+							<div class="skill_level" style="width: 70%;"></div>
+						</div>
+					</div>
+					<div class="skillBox">
+						<p>SQL</p>
+						<p>70%</p>
+						<div class="skill">
+							<div class="skill_level" style="width: 70%;"></div>
+						</div>
+					</div>
+					<div class="skillBox">
+						<p>HTML/CSS</p>
+						<p>70%</p>
+						<div class="skill">
+							<div class="skill_level" style="width: 70%;"></div>
+						</div>
+					</div>
+					<div class="skillBox">
+						<p>JavaScript</p>
+						<p>65%</p>
+						<div class="skill">
+							<div class="skill_level" style="width: 65%;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class = "row bars">
+				<div class="center">
+					<h1>Frameworks</h1>
+					<div class="skillBox">
+						<p>Flutter Mobile</p>
+						<p>85%</p>
+						<div class="skill">
+							<div class="skill_level" style="width: 85%;"></div>
+						</div>
+					</div>
+					<div class="skillBox">
+						<p>Spring MVC</p>
+						<p>65%</p>
+						<div class="skill">
+							<div class="skill_level" style="width: 65%;"></div>
+						</div>
+					</div>
+					<div class="skillBox">
+						<p>Android Studio</p>
+						<p>70%</p>
+						<div class="skill">
+							<div class="skill_level" style="width: 70%;"></div>
+						</div>
+					</div>
+					<div class="skillBox">
+						<p>Firebase</p>
+						<p>65%</p>
+						<div class="skill">
+							<div class="skill_level" style="width: 65%;"></div>
+						</div>
+					</div>
+					<div class="skillBox">
+						<p>Boostrap</p>
+						<p>60%</p>
+						<div class="skill">
+							<div class="skill_level" style="width: 60%;"></div>
+						</div>
+					</div>
+					<div class="skillBox">
+						<p>Git</p>
+						<p>100%</p>
+						<div class="skill">
+							<div class="skill_level" style="width: 100%;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="col-md-4">
+			<div class = "feature">
+				<i class="fas fa-play-circle fa-4x" 
+				data-fa-transform = "shrink-3 up-5"></i>
+				<h3>Custom Animation</h3>
+				<p>Animate.css and Wapoints.js allow for smooth animations 
+					scrolling down the site</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class = "feature">
+				<i class="fas fa-sliders-h fa-4x" 
+				data-fa-transform = "shrink-4.5 up-4.5"></i>
+				<h3>Content Slider</h3>
+				<p>Owl.Carousel.js makes navigating content sliders 
+					seamless with it's content carousel navigation
+				</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class = "feature">
+				<i class="fab fa-wpforms fa-4x" 
+				data-fa-transform = "shrink-4 up-5"></i>
+				<h3>Contact Form</h3>
+				<p>The Bootstrap HTML form will send directly to your 
+					email address using PHPMailer.php</p>
+			</div>
+		</div> -->
+	</div>
+	<!-- End Row -->
+<!-- End Narrow -->
+
+<!-- Bar Chart -->
+<!-- <div class = "row"> -->
+	<!-- <div class="col-md-6 clients">
+		<div class = "row">
+			<div class="center">
+				<h1>Languages</h1>
+				<div class="skillBox">
+					<p>HTML5</p>
+					<p>90%</p>
+					<div class="skill">
+						<div class="skill_level" style="width: 90%;"></div>
+					</div>
+				</div>
+				<div class="skillBox">
+					<p>CSS3</p>
+					<p>85%</p>
+					<div class="skill">
+						<div class="skill_level" style="width: 85%;"></div>
+					</div>
+				</div>
+				<div class="skillBox">
+					<p>jQuery</p>
+					<p>20%</p>
+					<div class="skill">
+						<div class="skill_level" style="width: 20%;"></div>
+					</div>
+				</div>
+				<div class="skillBox">
+					<p>Photoshop</p>
+					<p>0%</p>
+					<div class="skill">
+						<div class="skill_level" style="width: 0%;"></div>
+					</div>
+				</div>
+				<div class="skillBox">
+					<p>Python</p>
+					<p>100%</p>
+					<div class="skill">
+						<div class="skill_level" style="width: 100%;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6 clients">
+		<div class = "row">
+			<div class="center">
+				<h1>Frameworks</h1>
+				<div class="skillBox">
+					<p>HTML5</p>
+					<p>90%</p>
+					<div class="skill">
+						<div class="skill_level" style="width: 90%;"></div>
+					</div>
+				</div>
+				<div class="skillBox">
+					<p>CSS3</p>
+					<p>85%</p>
+					<div class="skill">
+						<div class="skill_level" style="width: 85%;"></div>
+					</div>
+				</div>
+				<div class="skillBox">
+					<p>jQuery</p>
+					<p>20%</p>
+					<div class="skill">
+						<div class="skill_level" style="width: 20%;"></div>
+					</div>
+				</div>
+				<div class="skillBox">
+					<p>Photoshop</p>
+					<p>0%</p>
+					<div class="skill">
+						<div class="skill_level" style="width: 0%;"></div>
+					</div>
+				</div>
+				<div class="skillBox">
+					<p>Python</p>
+					<p>100%</p>
+					<div class="skill">
+						<div class="skill_level" style="width: 100%;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+<!-- </div> -->
+<!-- Bar Chart -->
+</div>
+<!-- End Jumbotron -->
+</div>
+<!--- End Skills Section -->
+
+
+<!--- Start Work Section -->
+<div id="work" class="offset">
+<!-- Start Fixed Background -->
+<div class="fixed-background">
+	<!-- Start Row Dark -->
+	<div class="row dark text-center">
+		<div class="col-12">
+			<h3 class="heading">Work Experiences</h3>
+			<div class="heading-underline"></div>
+		</div>
+		<!-- Start Tabs -->
+		<div class="tab">
+			<button class="tablinks active" onclick="openCity(event, 'job1')">Rakuten</button>
+			<button class="tablinks" onclick="openCity(event, 'job2')">MDB</button>
+			<button class="tablinks" onclick="openCity(event, 'job3')">Agadia</button>
+			<button class="tablinks" onclick="openCity(event, 'job4')">NJIT</button>
+		</div>
+		  
+		<div id="job1" class="tabcontent">
+			<h3>SWE @ Rakuten</h3>
+			<h6>Jun. 2019 - Aug. 2019 | San Mateo, CA</h6>
+			<ul>
+				<li>Designed queries for Rakuten’s E-commerce Databases using Google Datastore and Java Spring Boot</li>
+				<li>Architected search functionality for products based on GTIN identifiers in product catalog</li>
+				<li>Implemented a metric driven dashboard to provide multi-layered analytics on endpoint queries using (ELK) Dashboard </li>
+			</ul>
+		</div>
+		<div id="job2" class="tabcontent" style="display: none;">
+			<h3>Mobile Developers of Berkeley</h3>
+			<h6>Vice President of Operations: Jan. 2020 – Present | Berkeley, CA</h6>
+			<ul>
+				<li>Lead one of the largest tech orgs by enforcing budget, establishing operational procedures, & directing TechFair</li>
+				<li>Guide general meetings for 60+ members, organize showcasing of MDB apps to companies and clients at TechFair</li>
+			</ul>
+			<h6>Technical Project Manager: Aug. 2019 – Dec. 2020 | Berkeley, CA</h6>
+			<ul>
+				<li>Leading team of 5 developers and 2 designers to create a mobile app for our client, Recelery LLC. valued ~ $25 k</li>
+				<li>Defining and setting milestones and deliverables through AGILE and communicating w/ client to meet specs</li>
+			</ul>
+		</div>
+		<div id="job3" class="tabcontent" style="display: none;">
+			<h3>Mobile Managment @ Agadia</h3>
+			<h6>Jun. 2018 - Aug. 2018 | Parsippany, NJ</h6>
+			<ul>
+				<li>Defined risk mitigation policies to silo patients' PHI data from exposure on corporate devices</li>
+				<li>Executed QA protocol on various configurations for corporate devices using security software</li>
+			</ul>
+		</div>
+		<div id="job4" class="tabcontent" style="display: none;">
+			<h3>Programming Teacher @ NJIT</h3>
+			<h6>Jun. 2015 - Aug. 2015 | Newark, NJ</h6>
+			<ul>
+				<li>Taught 6 inner city high school students to code in HTML, CSS, C++, Javascript and Python </li>
+				<li>Mentored students to develop a web app to provide Geo coordinate sensitive health clinic listings</li>
+				<li>Won Best Intern Award by Panasonic & NJIT for technical skills and demonstrated passion</li>
+			</ul>
+		</div>
+		<!-- <div class="col-md-4">
+			<h3>HTML 5</h3>
+			<div class = "feature">
+				<i class="fas fa-code fa-3x"></i>
+			</div>
+			<p class="lead">Built with the latest, HTML 5</p>
+		</div>
+		<div class="col-md-4">
+			<h3>BOOTSTRAP 4</h3>
+			<div class = "feature">
+				<i class="fas fa-bold fa-3x"></i>
+			</div>
+			<p class="lead">Built with the latest, BOOTSTRAP 4</p>
+		</div>
+		<div class="col-md-4">
+			<h3>CSS 3</h3>
+			<div class = "feature">
+				<i class="fab fa-css3 fa-3x"></i>
+			</div>
+			<p class="lead">Built with the latest, CSS 3</p>
+		</div> -->
+	</div>
+	<!-- End Row Dark -->
+
+	<div class="fixed-wrap">
+		<div class="fixed">
+
+		</div>
+	</div>
+</div>
+<!-- End Fixed Background -->
+</div>
+<!--- End Work Section -->
+
+
+<!--- Start Projects Section -->
+<div id="projects" class="offset">
+<!-- Start Jumbotron -->
+<div class="jumbotron">
+	<div class="col-12 text-center">
+		<h3 class="heading">Projects</h3>
+		<div class="heading-underline"></div>
+	</div>
+<div class="main">
+	<ul class="cards">
+	  <li class="cards_item">
+		<div class="card">
+		  <div class="card_image"><img src="img/nutshell.png"></div>
+		  <div class="card_content">
+			<h2 class = "card_title" style="text-align:left;">
+				Nutshell
+				<span style="float:right;">
+					Mobile App
+				</span>
+			</h2>
+			<p class="card_text">Social media platform for CS students to post and collaborate on independent software projects</p>
+			<p class="card_text">Cross platform app developed by Google's Mobile Engine: Flutter using Firebase as Backend</p>
+			<!-- <button class="btn card_btn" href="https://github.com/jaekiu/Nutshell">Read More</button> -->
+			<a class="btn card_btn" href="https://github.com/jaekiu/Nutshell" target="_blank">Read More</a>
+			<!-- <button class="btn card_btn">Read More</button> -->
+		  </div>
+		</div>
+	  </li>
+	  <li class="cards_item">
+		<div class="card">
+		  <div class="card_image"><img src="img/time.jpg"></div>
+		  <div class="card_content">
+			<h2 class = "card_title" style="text-align:left;">
+				Time Tracker
+				<span style="float:right;">
+					Automation Script
+				</span>
+			</h2>
+			<p class="card_text">Scrapes data from active application and generates visualizations for time management</p>
+			<p class="card_text">Uses Python and Regex to scrape websites, Matplotlib for visualizations & user preferences/ logging for UX</p>
+			<a class="btn card_btn" href="https://github.com/ShauryaS99/time_tracker" target="_blank">Read More</a>
+		  </div>
+		</div>
+	  </li>
+	  <li class="cards_item">
+		<div class="card">
+		  <div class="card_image"><img src="img/wine.png"></div>
+		  <div class="card_content">
+			<h2 class = "card_title" style="text-align:left;">
+				Wine Classifier
+				<span style="float:right;">
+					ML
+				</span>
+			</h2>
+			<p class="card_text">Distinguish red and white wine from given dataset on Kaggle</p>
+			<p class="card_text">Used Machine Learning with Logistic Regression to train different models to maximize accuracy rates</p>
+			<a class="btn card_btn" href="https://www.kaggle.com/c/spring20-cs189-hw4-wine/data" target="_blank">Read More</a>
+		  </div>
+		</div>
+	  </li>
+	 
+	</ul>
+</div>
+</div>
+<!-- End Jumbotron -->
+<!-- <div class="col-12 narrow text-center">
+	<p class = "lead">Want to learn more about Shaurya?</p>
+	<a class = "btn btn-secondary btn-md" href="https://people.eecs.berkeley.edu/~jrs/189/lec/12.pdf"
+	target="_blank">LinkedIn</a>
+</div> -->
+</div>
+<!--- End Projects Section -->
+
+
+<!--- Start Contact Section -->
+<div id="contact" class="offset">
+<footer>
+	<div class="row justify-content-center">
+		<div class="col-md-5 text-center">
+			<h1>Reach Out</h1>
+			<strong>Contact Info</strong>
+			<p>shaurya_s@berkeley.edu</p>
+			<a href="https://www.linkedin.com/" target = "_blank">
+			<i class="fab fa-linkedin"></i></a>
+			<a href="https://www.github.com/ShauryaS99" target = "_blank">
+			<i class="fab fa-github-square"></i></a>
+			<a href="mailto:shaurya_s@berkeley.edu?Subject=Hello!" target = "_blank">
+			<i class="fas fa-envelope"></i></a>
+		</div>
+		<hr class="socket">
+		&copy; Shaurya Sanghvi
+	</div>
+</footer>
+</div>
+<!--- End Contact Section -->
+
+
+
+<!--- Script Source Files -->
+<script src="script.js"></script>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+<!--- End of Script Source Files -->
+
+</body>
+</html>
+
